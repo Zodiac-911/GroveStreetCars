@@ -5,6 +5,7 @@ import franklin from "../assets/franklin.png";
 import michel from "../assets/michel.png";
 import "../styles/cards.css";
 import gtavlogo from "../assets/gtav-bg-logo.png";
+import GtaCarousel from "../composents/gtav-carousel";
 
 function Gtav() {
   return (
@@ -44,7 +45,10 @@ function Gtav() {
         data-aos="zoom-out"
         data-aos-duration="600"
       />
-      <p className="arrow-down-cards">▼</p>
+      <p className="arrow-down-cards ">▼</p>
+      <div className="gtav-carousel card">
+        <GtaCarousel />
+      </div>
       <div class="cards-container">
         <div class="card1 card ">
           <div className="card-content">

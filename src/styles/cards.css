@@ -67,7 +67,12 @@
   margin-top: 40px;
   padding-bottom: 80px;
 }
-
+.gtav-carousel {
+  display: flex;
+  margin: 0 auto;
+  height: 200px;
+  width: 920px;
+}
 .card {
   border-radius: 28px;
   color: white;
