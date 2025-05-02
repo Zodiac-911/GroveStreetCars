@@ -1,0 +1,110 @@
+.topbar {
+  width: 100%;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+
+  background-image: url(../assets/buldings-pattern.png);
+  margin-top: 0;
+  background-size: 600px;
+  z-index: +2;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0);
+  background-attachment: fixed;
+  transition: all 0.5s;
+}
+.topbar:hover {
+  background-color: rgba(0, 0, 0, 0.708);
+}
+.logo {
+  filter: drop-shadow(3px 0px 4px rgba(0, 0, 0, 0));
+  transition: all 0.3s;
+}
+.logo:hover {
+  cursor: pointer;
+  filter: drop-shadow(3px 0px 0px rgb(0, 0, 0));
+}
+.navbar {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-top: 10px;
+}
+.navbar button {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar button img {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  transition: all 0.3s;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0));
+}
+
+.navbar button img:hover {
+  scale: 1.2;
+  cursor: pointer;
+  transform: translateY(-5px);
+  filter: drop-shadow(0 4px 0px rgb(0, 0, 0));
+  cursor: pointer;
+}
+.logo {
+  height: 80px;
+  position: absolute;
+  z-index: +2;
+  top: 12px;
+  left: 0;
+}
+@media (max-width: 1100px) {
+  .topbar {
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+  .navbar button img {
+    height: 50px;
+  }
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 620px) {
+  .topbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    background-size: cover;
+    background-attachment: scroll;
+    height: auto;
+    border-radius: 0 0 28px 28px;
+  }
+
+  .logo {
+    position: static;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .navbar {
+    height: 90px;
+    align-items: end;
+
+    gap: 20px;
+  }
+
+  .navbar button img {
+    height: 62px;
+  }
+}
+@media (max-width: 420px) {
+  .navbar button img {
+    height: 48px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .topbar {
+    width: 100%;
+  }
+}

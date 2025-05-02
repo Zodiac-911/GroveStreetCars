@@ -1,0 +1,176 @@
+.home-container {
+  display: flex;
+  color: white;
+  width: 100%;
+
+  background-color: rgb(0, 0, 0);
+  margin-top: 80px;
+  gap: 20px;
+  z-index: +2;
+  border-radius: 28px;
+  height: 317px;
+  border: 4px solid rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+.home-container:hover {
+  background-color: rgba(0, 0, 0, 0.737);
+  border: 4px solid transparent;
+}
+.cj1 {
+  height: 70vh;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+.babahom-home {
+  max-width: 1000px;
+  margin-left: 10%;
+}
+.gta-slider {
+  position: relative;
+  width: 550px;
+  height: 309px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  left: 0;
+}
+
+.gta-slide {
+  position: absolute;
+  left: 0;
+  top: 0;
+  left: 0;
+  width: 550px;
+  height: 309px;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  z-index: 0;
+  border-radius: 24px 0 0 24px;
+}
+
+.gta-slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+.home-text {
+  width: 50%;
+  padding-top: 12px;
+  padding-right: 12px;
+}
+.home-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+  color: rgb(232, 255, 207);
+}
+.home-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rgb(232, 255, 207);
+}
+.home-text p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+.week-div {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 28px;
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.653);
+}
+.week-div button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 24px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.5s;
+  outline: 3px solid rgba(203, 255, 148, 0.737);
+  font-size: 24px;
+}
+.week-div button:hover {
+  background-color: rgba(203, 255, 148, 0.737);
+  color: rgb(0, 0, 0);
+}
+.week-div h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (max-width: 1100px) {
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    border: 4px solid transparent;
+    background-color: rgb(0, 0, 0, 0.653);
+    gap: 16px;
+    border-radius: 0;
+    margin-top: 0;
+  }
+  .home-container:hover {
+    background-color: rgb(0, 0, 0, 0.653);
+  }
+  .babahom-home {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .gta-slider {
+    width: 100%;
+    height: 200px;
+    border-radius: 28px;
+    order: +2;
+  }
+
+  .gta-slide {
+    width: 100%;
+    height: 200px;
+    border-radius: 0;
+    border-radius: 28px;
+  }
+
+  .home-text {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .home-text h1 {
+    font-size: 28px;
+  }
+
+  .home-text h3 {
+    font-size: 18px;
+  }
+
+  .home-text p {
+    font-size: 16px;
+  }
+
+  .cj1 {
+    display: none; /* Hide large character art for mobile */
+  }
+  .week-div {
+    flex-direction: column;
+    border: none;
+    border-radius: 0;
+    margin-top: 0;
+    gap: 20px;
+  }
+  .week-div button {
+    width: 100%;
+  }
+}

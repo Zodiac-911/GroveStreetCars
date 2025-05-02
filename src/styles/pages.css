@@ -1,0 +1,167 @@
+.bgi {
+  height: 70vh;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+}
+
+.gta-bg-logo {
+  top: 30%;
+  left: auto;
+  right: auto;
+  position: fixed;
+  height: 36%;
+  z-index: -2;
+}
+.gtasa-bg-logo {
+  right: 0;
+}
+.gtav-bg-logo {
+  left: 50%;
+  height: 60%;
+  top: 20%;
+}
+.claude {
+  left: -48px;
+}
+.tommy {
+  left: -8px;
+}
+.cj {
+  right: 0;
+}
+.gtav-characters {
+  height: 50vh;
+  left: -8%;
+  display: none;
+}
+.trevor {
+  right: 0;
+}
+.franklin {
+  left: 0;
+}
+.michel {
+  left: 40%;
+}
+.carousel-container {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px 28px 0 0;
+  border: 4px solid rgb(0, 0, 0);
+  margin: 0 auto;
+  background-color: black;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 24px 24px 0 0;
+  z-index: 0;
+}
+
+.carousel-overlay {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  color: white;
+  z-index: 2;
+}
+
+.carousel-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  text-shadow: 0 0 6px rgb(0, 0, 0);
+}
+
+.carousel-desc {
+  font-size: 20px;
+
+  opacity: 0.9;
+  margin-bottom: 14px;
+  text-shadow: 0 0 6px rgb(0, 0, 0);
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 3;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.dot.active {
+  background-color: white;
+  transform: scale(1.2);
+}
+@media (max-width: 850px) {
+  .franklin {
+    left: -40px;
+  }
+  .michel {
+    left: 30%;
+  }
+  .trevor {
+    right: -40px;
+  }
+  .gtav-bg-logo {
+    top: 15%;
+    left: 20%;
+  }
+}
+@media (max-width: 570px) {
+  .gtav-characters {
+    display: block;
+  }
+  .franklin,
+  .michel,
+  .trevor {
+    display: none;
+  }
+  .gta-bg-logo {
+    height: 30%;
+  }
+  .gta3-bg-logo {
+    left: -100px;
+  }
+  .gtasa-bg-logo {
+    right: -100px;
+  }
+  .gtav-bg-logo {
+    left: 0;
+    height: 50%;
+    top: 30%;
+  }
+  .tommy {
+    left: -56px;
+  }
+  .claude {
+    left: -100px;
+  }
+}
+@media (max-width: 344px) {
+  .gtav-characters {
+    left: -100px;
+  }
+}

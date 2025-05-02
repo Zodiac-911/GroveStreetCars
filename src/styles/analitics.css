@@ -1,0 +1,60 @@
+.price-analytics-container {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+  color: #ffffff;
+  padding: 24px;
+  border-radius: 0 0 28px 28px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+  transition: all 0.5s;
+}
+.price-analytics-container:hover {
+  background-color: #000000b9;
+}
+.price-summary {
+  margin-bottom: 20px;
+}
+
+.price-summary h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: rgba(203, 255, 148, 0.737);
+}
+
+.price-summary p {
+  font-size: 18px;
+  margin: 4px 0;
+}
+
+.price-summary span {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.price-chart canvas {
+  border-radius: 12px;
+  padding: 12px;
+}
+.price-analytics-container button {
+  margin-top: 20px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 24px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.5s;
+  outline: 3px solid rgba(203, 255, 148, 0.737);
+  font-size: 24px;
+}
+.price-analytics-container button:hover {
+  background-color: rgba(203, 255, 148, 0.737);
+  color: rgb(0, 0, 0);
+}

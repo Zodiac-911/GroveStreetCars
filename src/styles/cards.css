@@ -1,0 +1,196 @@
+.card1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.card2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.card3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.card4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.card5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.card6 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.card7 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.card8 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.card9 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.card10 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 440px);
+  grid-template-rows: repeat(5, 200px);
+  grid-gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+.card {
+  border-radius: 28px;
+  color: white;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.441);
+
+  transition: all 0.5s;
+  overflow: hidden;
+
+  border: 4px solid rgba(0, 0, 0, 0);
+}
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.863);
+  border-radius: 6px;
+  scale: 1.1;
+}
+.card-content {
+  display: flex;
+}
+.card-text {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px 16px 10px;
+}
+
+.card-text h1 {
+  font-size: 28px;
+}
+.card-text h1,
+p {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.612);
+}
+.card-text button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 24px;
+  cursor: pointer;
+
+  font-weight: bold;
+  transition: all 0.5s;
+  outline: 3px solid rgba(203, 255, 148, 0.737);
+  font-size: 18px;
+}
+.card-text button:hover {
+  background-color: rgba(203, 255, 148, 0.737);
+  color: rgb(0, 0, 0);
+}
+
+.ci {
+  width: 65%;
+  display: flex;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s;
+}
+.ci:hover {
+  width: 100%;
+}
+.card-img1 {
+  background-image: url(../assets/cars/banshee-gta3.webp);
+}
+.card-img2 {
+  background-image: url(../assets/cars/cheetah-gta3.webp);
+}
+.card-img3 {
+  background-image: url(../assets/cars/diablo-stallion-gta3.webp);
+}
+.card-img4 {
+  background-image: url(../assets/cars/mafia-sentinel-gta3.jpg);
+}
+.card-img5 {
+  background-image: url(../assets/cars/securicar-gta3.jpg);
+}
+.card-img6 {
+  background-image: url(../assets/cars/patriot-gta3.webp);
+}
+.card-img7 {
+  background-image: url(../assets/cars/stretch-gta3.webp);
+}
+.card-img8 {
+  background-image: url(../assets/cars/yakuza-stinger-gta3.webp);
+}
+.card-img9 {
+  background-image: url(../assets/cars/police-gta3.webp);
+}
+.card-img10 {
+  background-image: url(../assets/cars/dodo-gta3.webp);
+}
+.card-img11 {
+  background-image: url(../assets/cars/angel-gtavc.webp);
+}
+.card-img12 {
+  background-image: url(../assets/cars/blista-compact-gtavc.webp);
+}
+.card-img13 {
+  background-image: url(../assets/cars/bloodring-banger-glendale-gtavc.webp);
+}
+.card-img14 {
+  background-image: url(../assets/cars/cuban-hermes-gtavc.webp);
+}
+.card-img15 {
+  background-image: url(../assets/cars/deluxo-gtavc.webp);
+}
+.card-img16 {
+  background-image: url(../assets/cars/gang-burrito-gtavc.webp);
+}
+.card-img17 {
+  background-image: url(../assets/cars/hotring-racer-gtavc.webp);
+}
+.card-img18 {
+  background-image: url(../assets/cars/maverick-gtavc.webp);
+}
+.card-img19 {
+  background-image: url(../assets/cars/sabre-turbo-gtavc.webp);
+}
+.card-img20 {
+  background-image: url(../assets/cars/stallion-gtavc.webp);
+}
+.arrow-down-cards {
+  display: none;
+}
+@media screen and (max-width: 936px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 12px;
+    margin-top: 30vh;
+  }
+  .card-text {
+    width: 40%;
+  }
+  .ci {
+    width: 60%;
+  }
+  .ci:hover {
+    width: 60%;
+  }
+  .card:hover {
+    background-color: rgba(0, 0, 0, 0.863);
+    border-radius: 0px;
+    scale: 1;
+  }
+  .arrow-down-cards {
+    color: white;
+    display: block;
+    font-size: 60px;
+    margin-top: 30vh;
+    text-align: center;
+    animation: float 2s ease-in-out infinite;
+  }
+}
