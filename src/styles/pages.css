@@ -1,5 +1,5 @@
 .bgi {
-  height: 70dvh;
+  height: 70vmax;
   position: fixed;
   z-index: -1;
   bottom: 0;
@@ -31,7 +31,7 @@
   right: 0;
 }
 .gtav-characters {
-  height: 50dvh;
+  height: 50vmax;
   left: -8%;
   display: none;
 }
