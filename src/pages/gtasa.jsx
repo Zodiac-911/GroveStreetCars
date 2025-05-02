@@ -26,8 +26,8 @@ function Gtasa() {
           <div className="card-content">
             {" "}
             <div className="card-text">
-              <h1>Angel</h1>
-              <p>Top speed : 190.00 km/h</p>
+              <h1>Bandito</h1>
+              <p>Top speed : 170.00 km/h</p>
               <button>More info</button>
             </div>
             <div className="card-img21 ci"></div>
@@ -38,7 +38,7 @@ function Gtasa() {
             {" "}
             <div className="card-text">
               {" "}
-              <h1>Blista Compact</h1>
+              <h1>Banshee</h1>
               <p>Top speed : 200.00 km/h</p>
               <button>More info</button>
             </div>
@@ -50,7 +50,7 @@ function Gtasa() {
             {" "}
             <div className="card-text">
               {" "}
-              <h1>Bloodring Banger Glendale</h1>
+              <h1>Blade</h1>
               <p>Top speed : 160.00 km/h</p>
               <button>More info</button>
             </div>
@@ -62,7 +62,7 @@ function Gtasa() {
             {" "}
             <div className="card-text">
               {" "}
-              <h1>Cuban Hermes</h1>
+              <h1>Bloodring Banger</h1>
               <p>Top speed : 160.00 km/h</p>
               <button>More info</button>
             </div>
@@ -74,7 +74,7 @@ function Gtasa() {
             {" "}
             <div className="card-text">
               {" "}
-              <h1>Deluxo</h1>
+              <h1>Bullet</h1>
               <p>Top speed : 200.00 km/h</p>
               <button>More info</button>
             </div>
@@ -86,7 +86,7 @@ function Gtasa() {
             {" "}
             <div className="card-text">
               {" "}
-              <h1>Gang Burrito</h1>
+              <h1>Burrito</h1>
               <p>Top speed : 150.00 km/h</p>
               <button>More info</button>
             </div>
@@ -98,7 +98,7 @@ function Gtasa() {
             {" "}
             <div className="card-text">
               {" "}
-              <h1>Hotring Racer</h1>
+              <h1>Hotknife</h1>
               <p>Top speed : 220.00 km/h</p>
               <button>More info</button>
             </div>
@@ -109,7 +109,7 @@ function Gtasa() {
           <div className="card-content">
             <div className="card-text">
               {" "}
-              <h1>Maverick</h1>
+              <h1>Hotring Racer</h1>
               <p>Top speed : 200.00 km/h</p>
               <button>More info</button>
             </div>
@@ -120,8 +120,8 @@ function Gtasa() {
           <div className="card-content">
             <div className="card-text">
               {" "}
-              <h1>Sabre Turbo</h1>
-              <p>Top speed : 180.00 km/h</p>
+              <h1>Hunter</h1>
+              <p>Top speed : 200.00 km/h</p>
               <button>More info</button>
             </div>
             <div className="card-img29 ci"></div>
@@ -131,11 +131,129 @@ function Gtasa() {
           <div className="card-content">
             <div className="card-text">
               {" "}
-              <h1>Stallion</h1>
-              <p>Top speed : 160.00 km/h</p>
+              <h1>Hydra</h1>
+              <p>Top speed : 200.00 km/h</p>
               <button>More info</button>
             </div>
             <div className="card-img30 ci"></div>
+          </div>
+        </div>
+        <div class="card11 card ">
+          <div className="card-content">
+            {" "}
+            <div className="card-text">
+              <h1>Monster TMonstera</h1>
+              <p>Top speed : 160.00 km/h</p>
+              <button>More info</button>
+            </div>
+            <div className="card-img31 ci"></div>
+          </div>
+        </div>
+        <div class="card12 card">
+          <div className="card-content">
+            {" "}
+            <div className="card-text">
+              {" "}
+              <h1>NRG 500</h1>
+              <p>Top speed : 200.00 km/h</p>
+              <button>More info</button>
+            </div>
+            <div className="card-img32 ci"></div>
+          </div>
+        </div>
+        <div class="card13 card">
+          <div className="card-content">
+            {" "}
+            <div className="card-text">
+              {" "}
+              <h1>Pizza Boy</h1>
+              <p>Top speed : 160.00 km/h</p>
+              <button>More info</button>
+            </div>
+            <div className="card-img33 ci"></div>
+          </div>
+        </div>
+        <div class="card14 card">
+          <div className="card-content">
+            {" "}
+            <div className="card-text">
+              {" "}
+              <h1>Rhino</h1>
+              <p>Top speed : 160.00 km/h</p>
+              <button>More info</button>
+            </div>
+            <div className="card-img34 ci"></div>
+          </div>
+        </div>
+        <div class="card15 card">
+          <div className="card-content">
+            {" "}
+            <div className="card-text">
+              {" "}
+              <h1>Sabre</h1>
+              <p>Top speed : 200.00 km/h</p>
+              <button>More info</button>
+            </div>
+            <div className="card-img35 ci"></div>
+          </div>
+        </div>
+        <div class="card16 card">
+          <div className="card-content">
+            {" "}
+            <div className="card-text">
+              {" "}
+              <h1>Squalo</h1>
+              <p>Top speed : 180.00 km/h</p>
+              <button>More info</button>
+            </div>
+            <div className="card-img36 ci"></div>
+          </div>
+        </div>
+        <div class="card17 card">
+          <div className="card-content">
+            {" "}
+            <div className="card-text">
+              {" "}
+              <h1>Sultan</h1>
+              <p>Top speed : 220.00 km/h</p>
+              <button>More info</button>
+            </div>
+            <div className="card-img37 ci"></div>
+          </div>
+        </div>
+        <div class="card18 card">
+          <div className="card-content">
+            <div className="card-text">
+              {" "}
+              <h1>Super GT</h1>
+              <p>Top speed : 220.00 km/h</p>
+              <button>More info</button>
+            </div>
+            <div className="card-img38 ci"></div>
+          </div>
+        </div>
+        <div class="card19 card">
+          <div className="card-content">
+            {" "}
+            <div className="card-text">
+              {" "}
+              <h1>Swat</h1>
+              <p>Top speed : 150.00 km/h</p>
+              <button>More info</button>
+            </div>
+            <div className="card-img39 ci"></div>
+          </div>
+        </div>
+        <div class="card20 card">
+          <div className="card-content">
+            {" "}
+            <div className="card-text">
+              {" "}
+              <h1>Walton</h1>
+              <p>Top speed : 160.00 km/h</p>
+              <button>More info</button>
+            </div>
+            <div className="card-img40 ci"></div>
           </div>
         </div>
       </div>

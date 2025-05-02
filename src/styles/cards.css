@@ -28,6 +28,36 @@
 .card10 {
   grid-area: 5 / 2 / 6 / 3;
 }
+.card11 {
+  grid-area: 6 / 1 / 7 / 2;
+}
+.card12 {
+  grid-area: 6 / 2 / 7 / 3;
+}
+.card13 {
+  grid-area: 7 / 1 / 8 / 2;
+}
+.card14 {
+  grid-area: 7 / 2 / 8 / 3;
+}
+.card15 {
+  grid-area: 8 / 1 / 9 / 2;
+}
+.card16 {
+  grid-area: 8 / 2 / 9 / 3;
+}
+.card17 {
+  grid-area: 9 / 1 / 10 / 2;
+}
+.card18 {
+  grid-area: 9 / 2 / 10 / 3;
+}
+.card19 {
+  grid-area: 10 / 1 / 11 / 2;
+}
+.card20 {
+  grid-area: 10 / 2 / 11 / 3;
+}
 .cards-container {
   display: grid;
   grid-template-columns: repeat(2, 440px);
@@ -160,6 +190,66 @@ p {
 }
 .card-img20 {
   background-image: url(../assets/cars/stallion-gtavc.webp);
+}
+.card-img21 {
+  background-image: url(../assets/cars/bandito-gtasa.webp);
+}
+.card-img22 {
+  background-image: url(../assets/cars/banshee-gtasa.jpg);
+}
+.card-img23 {
+  background-image: url(../assets/cars/blade-gtasa.webp);
+}
+.card-img24 {
+  background-image: url(../assets/cars/bloodring-banger-gtasa.jpg);
+}
+.card-img25 {
+  background-image: url(../assets/cars/bullet-gtasa.webp);
+}
+.card-img26 {
+  background-image: url(../assets/cars/burrito-gtasa.webp);
+}
+.card-img27 {
+  background-image: url(../assets/cars/hotknife-gtasa.webp);
+}
+.card-img28 {
+  background-image: url(../assets/cars/hotring-racer-gtasa.webp);
+}
+.card-img29 {
+  background-image: url(../assets/cars/hunter-gtasa.webp);
+}
+.card-img30 {
+  background-image: url(../assets/cars/hydra-gtasa.webp);
+}
+.card-img31 {
+  background-image: url(../assets/cars/monster-monstera-gtasa.webp);
+}
+.card-img32 {
+  background-image: url(../assets/cars/nrg-500-gtasa.webp);
+}
+.card-img33 {
+  background-image: url(../assets/cars/pizzaboy-gtasa.webp);
+}
+.card-img34 {
+  background-image: url(../assets/cars/rhino-gtasa.webp);
+}
+.card-img35 {
+  background-image: url(../assets/cars/sabre-gtasa.jpg);
+}
+.card-img36 {
+  background-image: url(../assets/cars/squalo-gtasa.webp);
+}
+.card-img37 {
+  background-image: url(../assets/cars/sultan-gtasa.webp);
+}
+.card-img38 {
+  background-image: url(../assets/cars/super-gt-gtasa.webp);
+}
+.card-img39 {
+  background-image: url(../assets/cars/swat-gtasa.jpg);
+}
+.card-img40 {
+  background-image: url(../assets/cars/walton-gtasa.webp);
 }
 .arrow-down-cards {
   display: none;
