@@ -51,15 +51,15 @@
   transition: all 0.3s;
 }
 .car-slider-btn:hover {
-  background-color: rgb(0, 0, 0);
+  backdrop-filter: blur(4px);
 }
 
 .car-slider-btn.left {
-  left: 10px;
+  left: 4px;
 }
 
 .car-slider-btn.right {
-  right: 10px;
+  right: 4px;
 }
 @media screen and (max-width: 936px) {
   .car-slider-btn {

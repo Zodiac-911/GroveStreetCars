@@ -75,7 +75,35 @@
   width: 920px;
   margin-top: 40px;
 }
+.more-div {
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 120px;
+  padding: 4px 4px 4px 20px;
+  width: 920px;
+  margin-top: 8px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.612);
+}
+.more-div button {
+  background-color: rgb(0, 0, 0);
 
+  color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 22px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s;
+  outline: 3px solid rgba(203, 255, 148, 0.737);
+  font-size: 18px;
+}
+.more-div button:hover {
+  background-color: rgba(203, 255, 148, 0.737);
+  color: rgb(0, 0, 0);
+}
 .card {
   border-radius: 28px;
   color: white;
@@ -260,6 +288,36 @@ p {
 .card-img40 {
   background-image: url(../assets/cars/walton-gtasa.webp);
 }
+.card-img41 {
+  background-image: url(../assets/cars/gtav/la-coureuse.webp);
+}
+.card-img42 {
+  background-image: url(../assets/cars/gtav/vigero-zx-convertible.jpg);
+}
+.card-img43 {
+  background-image: url(../assets/cars/gtav/baller-st.webp);
+}
+.card-img44 {
+  background-image: url(../assets/cars/gtav/10f.webp);
+}
+.card-img45 {
+  background-image: url(../assets/cars/gtav/shinobi.webp);
+}
+.card-img46 {
+  background-image: url(../assets/cars/gtav/growler.webp);
+}
+.card-img47 {
+  background-image: url(../assets/cars/gtav/brioso-300.webp);
+}
+.card-img48 {
+  background-image: url(../assets/cars/gtav/youga-classic-4x4.webp);
+}
+.card-img49 {
+  background-image: url(../assets/cars/gtav/jester-rr-widebody-1080.jpg);
+}
+.card-img50 {
+  background-image: url(../assets/cars/gtav/vigilante.webp);
+}
 .arrow-down-cards {
   display: none;
 }
@@ -268,10 +326,22 @@ p {
     display: flex;
     flex-direction: column;
     grid-gap: 12px;
+    margin-top: 12px;
   }
   .gtav-carousel {
     margin-top: 30vh;
     width: 100%;
+    border-radius: 28px 28px 0 0;
+  }
+  .more-div {
+    width: 100%;
+    flex-direction: column;
+    max-height: unset;
+    margin-top: 0;
+    border-radius: 0 0 28px 28px;
+  }
+  .more-div h2 {
+    font-size: 20px;
   }
   .card-text {
     width: 40%;
