@@ -1,84 +1,46 @@
-import React, { useState, useEffect } from "react";
-import "../styles/CC.css"; // Changed CSS file name
+import React, { useRef } from "react";
+import "../styles/CC.css";
+import car1 from "./cc1.png";
+import car2 from "./cc2.png";
+import car3 from "./cc3.png";
+import car4 from "./cc4.png";
+import car5 from "./cc5.png";
+import car6 from "./cc6.png";
+import car7 from "./cc7.png";
+import car8 from "../assets/cars/206-1.png";
 
-const GtaCarousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const carImages = [
-    "./cc1.png",
-    "./cc2.png",
-    "./cc3.png",
-    "./cc4.png",
-    "./cc5.png",
-    "./cc6.png",
-    "./cc7.png",
-  ];
+const carImages = [car1, car2, car3, car4, car5, car6, car7, car8];
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % carImages.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [carImages.length]);
+const CustomCarCarousel = () => {
+  const sliderRef = useRef(null);
 
-  const goToPrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? carImages.length - 1 : prevIndex - 1
-    );
-  };
-
-  const goToNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % carImages.length);
+  const scrollSlider = (dir) => {
+    const scrollStep = 270;
+    if (sliderRef.current) {
+      sliderRef.current.scrollBy({
+        left: scrollStep * dir,
+        behavior: "smooth",
+      });
+    }
   };
 
   return (
-    <div className="gta-carousel-container">
-      <h2 className="gta-carousel-title">GTA V Cars Collection</h2>
-      <div className="gta-carousel">
-        <button
-          className="gta-carousel-btn gta-carousel-btn-left"
-          onClick={goToPrev}
-        >
-          &lt;
-        </button>
-
-        <div className="gta-carousel-track">
-          {carImages.map((image, index) => (
-            <div
-              key={index}
-              className={`gta-carousel-slide ${
-                index === currentIndex ? "gta-active" : ""
-              }`}
-            >
-              <img
-                src={image}
-                alt={`Car ${index + 1}`}
-                className="gta-car-image"
-              />
-            </div>
-          ))}
-        </div>
-
-        <button
-          className="gta-carousel-btn gta-carousel-btn-right"
-          onClick={goToNext}
-        >
-          &gt;
-        </button>
-      </div>
-
-      <div className="gta-carousel-indicators">
-        {carImages.map((_, index) => (
-          <button
-            key={index}
-            className={`gta-indicator ${
-              index === currentIndex ? "gta-indicator-active" : ""
-            }`}
-            onClick={() => setCurrentIndex(index)}
-          />
+    <div className="car-slider-wrapper">
+      <button className="car-slider-btn left" onClick={() => scrollSlider(-1)}>
+        ❮
+      </button>
+      <div className="car-slider-track" ref={sliderRef}>
+        {carImages.map((src, index) => (
+          <div className="car-slider-card" key={index}>
+            <img src={src} alt={`Car ${index + 1}`} />
+          </div>
         ))}
       </div>
+      <button className="car-slider-btn right" onClick={() => scrollSlider(1)}>
+        ❯
+      </button>
     </div>
   );
 };
 
-export default GtaCarousel;
+export default CustomCarCarousel;

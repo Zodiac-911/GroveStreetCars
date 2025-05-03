@@ -70,9 +70,12 @@
 .gtav-carousel {
   display: flex;
   margin: 0 auto;
-  height: 200px;
+  align-items: center;
+  height: 228px;
   width: 920px;
+  margin-top: 40px;
 }
+
 .card {
   border-radius: 28px;
   color: white;
@@ -87,8 +90,9 @@
 .card:hover {
   background-color: rgba(0, 0, 0, 0.863);
   border-radius: 6px;
-  scale: 1.1;
+  scale: 1.05;
 }
+
 .card-content {
   display: flex;
 }
@@ -264,7 +268,10 @@ p {
     display: flex;
     flex-direction: column;
     grid-gap: 12px;
+  }
+  .gtav-carousel {
     margin-top: 30vh;
+    width: 100%;
   }
   .card-text {
     width: 40%;
