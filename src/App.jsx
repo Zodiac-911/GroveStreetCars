@@ -9,6 +9,7 @@ import Gtavc from "./pages/gtavc";
 import Gtasa from "./pages/gtasa";
 import Gtav from "./pages/gtav";
 import { Routes, Route } from "react-router";
+import Login from "./pages/login";
 function App() {
   return (
     <>
@@ -72,6 +73,7 @@ function App() {
         <Route path="/gtavc" element={<Gtavc />} />
         <Route path="/gtasa" element={<Gtasa />} />
         <Route path="/gtav" element={<Gtav />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </>
   );

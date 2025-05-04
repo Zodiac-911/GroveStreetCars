@@ -2,6 +2,7 @@ import "../styles/pages.css";
 import claudespeed from "../assets/claudespeed.png";
 import "../styles/cards.css";
 import gta3logo from "../assets/gta3-bg-logo.png";
+import MoreInfoBtn from "../composents/more-info-btn";
 
 function Gta3() {
   return (
@@ -28,7 +29,7 @@ function Gta3() {
             <div className="card-text">
               <h1>Banshee</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img1 ci"></div>
           </div>
@@ -40,7 +41,7 @@ function Gta3() {
               {" "}
               <h1>Sheetah</h1>
               <p>Top speed : 230.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img2 ci"></div>
           </div>
@@ -52,7 +53,7 @@ function Gta3() {
               {" "}
               <h1>Diablo Stallion</h1>
               <p>Top speed : 180.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img3 ci"></div>
           </div>
@@ -64,7 +65,7 @@ function Gta3() {
               {" "}
               <h1>Mafia Sentinel</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img4 ci"></div>
           </div>
@@ -76,7 +77,7 @@ function Gta3() {
               {" "}
               <h1>Securicar</h1>
               <p>Top speed : 170.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img5 ci"></div>
           </div>
@@ -88,7 +89,7 @@ function Gta3() {
               {" "}
               <h1>Patriot</h1>
               <p>Top speed : 170.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img6 ci"></div>
           </div>
@@ -100,7 +101,7 @@ function Gta3() {
               {" "}
               <h1>Stretch</h1>
               <p>Top speed : 180.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img7 ci"></div>
           </div>
@@ -111,7 +112,7 @@ function Gta3() {
               {" "}
               <h1>Yakuza Stinger</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img8 ci"></div>
           </div>
@@ -122,7 +123,7 @@ function Gta3() {
               {" "}
               <h1>Police Car</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img9 ci"></div>
           </div>
@@ -133,7 +134,7 @@ function Gta3() {
               {" "}
               <h1>Dodo</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img10 ci"></div>
           </div>

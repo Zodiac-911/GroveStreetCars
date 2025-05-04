@@ -2,6 +2,7 @@ import "../styles/pages.css";
 import cj from "../assets/cj.png";
 import "../styles/cards.css";
 import gtasalogo from "../assets/gtasa-bg-logo.png";
+import MoreInfoBtn from "../composents/more-info-btn";
 
 function Gtasa() {
   return (
@@ -28,7 +29,7 @@ function Gtasa() {
             <div className="card-text">
               <h1>Bandito</h1>
               <p>Top speed : 170.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img21 ci"></div>
           </div>
@@ -40,7 +41,7 @@ function Gtasa() {
               {" "}
               <h1>Banshee</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img22 ci"></div>
           </div>
@@ -52,7 +53,7 @@ function Gtasa() {
               {" "}
               <h1>Blade</h1>
               <p>Top speed : 160.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img23 ci"></div>
           </div>
@@ -64,7 +65,7 @@ function Gtasa() {
               {" "}
               <h1>Bloodring Banger</h1>
               <p>Top speed : 160.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img24 ci"></div>
           </div>
@@ -76,7 +77,7 @@ function Gtasa() {
               {" "}
               <h1>Bullet</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img25 ci"></div>
           </div>
@@ -88,7 +89,7 @@ function Gtasa() {
               {" "}
               <h1>Burrito</h1>
               <p>Top speed : 150.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img26 ci"></div>
           </div>
@@ -100,7 +101,7 @@ function Gtasa() {
               {" "}
               <h1>Hotknife</h1>
               <p>Top speed : 220.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img27 ci"></div>
           </div>
@@ -111,7 +112,7 @@ function Gtasa() {
               {" "}
               <h1>Hotring Racer</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img28 ci"></div>
           </div>
@@ -122,7 +123,7 @@ function Gtasa() {
               {" "}
               <h1>Hunter</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img29 ci"></div>
           </div>
@@ -133,7 +134,7 @@ function Gtasa() {
               {" "}
               <h1>Hydra</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img30 ci"></div>
           </div>
@@ -144,7 +145,7 @@ function Gtasa() {
             <div className="card-text">
               <h1>Monster TMonstera</h1>
               <p>Top speed : 160.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img31 ci"></div>
           </div>
@@ -156,7 +157,7 @@ function Gtasa() {
               {" "}
               <h1>NRG 500</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img32 ci"></div>
           </div>
@@ -168,7 +169,7 @@ function Gtasa() {
               {" "}
               <h1>Pizza Boy</h1>
               <p>Top speed : 160.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img33 ci"></div>
           </div>
@@ -180,7 +181,7 @@ function Gtasa() {
               {" "}
               <h1>Rhino</h1>
               <p>Top speed : 160.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img34 ci"></div>
           </div>
@@ -192,7 +193,7 @@ function Gtasa() {
               {" "}
               <h1>Sabre</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img35 ci"></div>
           </div>
@@ -204,7 +205,7 @@ function Gtasa() {
               {" "}
               <h1>Squalo</h1>
               <p>Top speed : 180.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img36 ci"></div>
           </div>
@@ -216,7 +217,7 @@ function Gtasa() {
               {" "}
               <h1>Sultan</h1>
               <p>Top speed : 220.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img37 ci"></div>
           </div>
@@ -227,7 +228,7 @@ function Gtasa() {
               {" "}
               <h1>Super GT</h1>
               <p>Top speed : 220.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img38 ci"></div>
           </div>
@@ -239,7 +240,7 @@ function Gtasa() {
               {" "}
               <h1>Swat</h1>
               <p>Top speed : 150.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img39 ci"></div>
           </div>
@@ -251,7 +252,7 @@ function Gtasa() {
               {" "}
               <h1>Walton</h1>
               <p>Top speed : 160.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img40 ci"></div>
           </div>

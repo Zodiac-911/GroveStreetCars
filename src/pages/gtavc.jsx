@@ -2,6 +2,7 @@ import "../styles/pages.css";
 import tommyvercetti from "../assets/tommyvercitti.png";
 import "../styles/cards.css";
 import gtavclogo from "../assets/gtavc-bg-logo.png";
+import MoreInfoBtn from "../composents/more-info-btn";
 
 function Gtavc() {
   return (
@@ -28,7 +29,7 @@ function Gtavc() {
             <div className="card-text">
               <h1>Angel</h1>
               <p>Top speed : 190.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img11 ci"></div>
           </div>
@@ -40,7 +41,7 @@ function Gtavc() {
               {" "}
               <h1>Blista Compact</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img12 ci"></div>
           </div>
@@ -52,7 +53,7 @@ function Gtavc() {
               {" "}
               <h1>Bloodring Banger Glendale</h1>
               <p>Top speed : 160.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img13 ci"></div>
           </div>
@@ -64,7 +65,7 @@ function Gtavc() {
               {" "}
               <h1>Cuban Hermes</h1>
               <p>Top speed : 160.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img14 ci"></div>
           </div>
@@ -76,7 +77,7 @@ function Gtavc() {
               {" "}
               <h1>Deluxo</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img15 ci"></div>
           </div>
@@ -88,7 +89,7 @@ function Gtavc() {
               {" "}
               <h1>Gang Burrito</h1>
               <p>Top speed : 150.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img16 ci"></div>
           </div>
@@ -100,7 +101,7 @@ function Gtavc() {
               {" "}
               <h1>Hotring Racer</h1>
               <p>Top speed : 220.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img17 ci"></div>
           </div>
@@ -111,7 +112,7 @@ function Gtavc() {
               {" "}
               <h1>Maverick</h1>
               <p>Top speed : 200.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img18 ci"></div>
           </div>
@@ -122,7 +123,7 @@ function Gtavc() {
               {" "}
               <h1>Sabre Turbo</h1>
               <p>Top speed : 180.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img19 ci"></div>
           </div>
@@ -133,7 +134,7 @@ function Gtavc() {
               {" "}
               <h1>Stallion</h1>
               <p>Top speed : 160.00 km/h</p>
-              <button>More info</button>
+              <MoreInfoBtn />
             </div>
             <div className="card-img20 ci"></div>
           </div>

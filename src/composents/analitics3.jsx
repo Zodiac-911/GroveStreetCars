@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Line } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -60,7 +61,9 @@ const PriceAnalyticsThree = () => {
       <div className="price-chart">
         <Line data={data} options={options} />
       </div>
-      <button>Purchase Now $</button>
+      <Link to="/login">
+        <button>Purchase Now $</button>
+      </Link>
     </div>
   );
 };

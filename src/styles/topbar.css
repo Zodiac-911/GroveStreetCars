@@ -54,7 +54,7 @@
 .logo {
   height: 80px;
   position: absolute;
-  z-index: +2;
+  z-index: 0;
   top: 12px;
   left: 0;
 }
