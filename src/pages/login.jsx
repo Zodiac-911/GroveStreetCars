@@ -8,7 +8,7 @@ function Login() {
       <div className="background-login">
         <div className="login-container">
           <Link className="close-login" to="/">
-            ✖
+            ⛌
           </Link>
           <form action="login">
             <div className="form-group">
