@@ -5,3 +5,25 @@
   scroll-behavior: smooth;
   font-family: "Lexend", sans-serif;
 }
+footer {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s;
+  background-color: #000000;
+  color: #fff;
+  font-family: "Lexend", sans-serif;
+  font-size: 14px;
+  bottom: 0;
+  left: 0;
+  text-shadow: 0 2px 4px black;
+}
+footer:hover {
+  background-color: #0000007b;
+}
+@media (max-width: 850px) {
+  footer {
+    display: block;
+    position: static;
+  }
+}
